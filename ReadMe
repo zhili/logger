@@ -1,0 +1,6 @@
+This is a simple c++ class for doing log regularly. It's 
+divided into four levels:info, warning, error and fatal.
+By properly initialize, we can log on file, console or 
+both. Also, There is a mutex lock which is handful in 
+multiprocess or multithread environment. It works fine
+both in Windows and *nix platform.
